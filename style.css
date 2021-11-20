@@ -9,7 +9,7 @@ body{
     background-image: url("Background.jpg");
     background-color: #41B3A3;
     background-position: center; 
-    height: 500px;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
