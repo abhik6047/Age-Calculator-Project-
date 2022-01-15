@@ -41,7 +41,7 @@ function ageCalculate() {
         calculated_date = currentDetails.currentDate - birthDetails.birthDate;
     } else {
         calculated_month--;
-        let days = months[currentDetails.currentMonth - 2];
+        let days = months[currentDetails.currentMonth - 1];
         calculated_date = days + currentDetails.currentDate - birthDetails.birthDate;
         if(calculated_month < 0){
             calculated_month = 11;
